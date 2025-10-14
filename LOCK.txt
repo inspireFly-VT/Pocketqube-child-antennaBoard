@@ -10,3 +10,8 @@ STATUS: List what you are doing
 Remember to remove your 'LOCK' when done and ensure that push has relevant comments to actions done.
 
 Log:
+
+FILE: pocketcube_child_board.kicad_sch
+LOCKED BY: alexanderdiarra
+START: 10/14/2025 17:02
+STATUS: Importing RFM98W transceiver, and other necessary parts
