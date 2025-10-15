@@ -1,0 +1,13 @@
+we're going to add a connector to the backplane board, then develop a separate antenna board. The connector is going to interface serial communication via SPI and power/ground from the backplane board to the antenna board.
+
+Tasks:
+- Ask Shane to make a separate Antenna Board repo - DONE
+- We need to determine the length of the tape antenna we're going to use, for this we need to do research into the tape antenna and how it functions
+- We need to determine the length of the traces we're going to use going from the transceiver to the tape antenna, we'll use https://jlcpcb.com/pcb-impedance-calculator, we need an impedance of 50 ohms to match the transceiver and the antenna we're going to design.
+- We need a 4-5 pin connector and implement an interrupt. The connector will go between the main board and the antenna board. Look into specific non-coaxial connectors that will maintain our use case for RF applications
+- Look into VIA stitching across the trace going from the antenna to the transceiver, allegedly helps to maintain the integrity of the signal.
+- We're back to a monopole antenna, for this we only need our transceiver to have one output, because of this, we can continue to use the RFM98W-433S2 transceiver. 
+- May need to talk to mechanical in terms of deployment of our antenna
+- Alek said the main requirements for our transceiver is for it to have Frequency Shift Keying (FSK) and a high dbi output. We can maybe look into a better transceiver if we want to.
+- Same 5x5 design, decide where the mounting holes are, mechanical has not given us direction on it yet. Also make it slightly smaller than 5x5, so that there's a small amount of tolerance for mechanical.
+- Integrate burn wire. Put burn wire on the payload, backplane board, or on our own board. The backplane board is an entire face and so is the antenna board, so just be sure to integrate this way.
