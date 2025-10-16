@@ -102,11 +102,11 @@
 	(footprint "inspirefly:RFM98W-433S2"
 		(layer "F.Cu")
 		(uuid "1347cbf9-5afc-44db-b44a-8628cff20c54")
-		(at 106.2 68)
+		(at 106 68.5)
 		(property "Reference" "MOD1"
 			(at -4.825 -9.075 0)
 			(layer "F.SilkS")
-			(uuid "3a63e748-77f3-44fc-b1a0-6dd3e4800a77")
+			(uuid "e36d25d2-7ae4-4757-96d7-081a905bc5a3")
 			(effects
 				(font
 					(size 1 1)
@@ -117,7 +117,7 @@
 		(property "Value" "RFM98W-433S2"
 			(at 2.795 9.065 0)
 			(layer "F.Fab")
-			(uuid "5584d2eb-7b64-4182-98ac-9728135d4538")
+			(uuid "9d5b4590-d693-4c67-a14d-ec0db73fcbad")
 			(effects
 				(font
 					(size 1 1)
@@ -129,7 +129,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43c2fa5a-877c-4d18-aa12-1b953abf4f6d")
+			(uuid "484f8aab-bc27-4605-adf0-93f967b1e21c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +141,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed29ce6a-4e0a-4355-b690-3ea00da503d7")
+			(uuid "66f094e6-93ad-4c71-b1cf-b982b075e886")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,7 +667,7 @@
 			(uuid "898f1eef-7416-4a04-9e33-fe85e836b3fb")
 		)
 		(embedded_fonts no)
-		(model "/Users/alexdiarra/Desktop/RFM98W-433S2.STEP 14.24.08"
+		(model "${KIPRJMOD}/3D Files/RFM98W-433S2.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -750,7 +750,7 @@
 			(uuid "0d1439be-35c6-429e-9c85-0f735637895e")
 		)
 		(embedded_fonts no)
-		(model "/Users/alexdiarra/Downloads/RF_Copper_Antenna_Model.STEP"
+		(model "${KIPRJMOD}/3D Files/RF_Copper_Antenna_Model.STEP"
 			(offset
 				(xyz 0 84.5 2)
 			)
@@ -1203,7 +1203,7 @@
 			(uuid "75b4de2d-67ed-4820-bf8c-26bb4338ff0c")
 		)
 		(embedded_fonts no)
-		(model "/Users/alexdiarra/Desktop/m55-7101242r.stp"
+		(model "${KIPRJMOD}/3D Files/m55-7101242r.stp"
 			(offset
 				(xyz 0 2.59 2)
 			)
@@ -1214,6 +1214,36 @@
 				(xyz -90 -0 -0)
 			)
 		)
+	)
+	(gr_line
+		(start 115.5 75.5)
+		(end 126.5 75.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "0e90737a-1e52-4bac-b763-09deb90a1405")
+	)
+	(gr_line
+		(start 127.5 74.5)
+		(end 127.5 60.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "844dde99-ed02-422d-9721-caeddd0616ee")
+	)
+	(gr_line
+		(start 126.5 75.5)
+		(end 127.5 74.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "c6a6188f-b87b-44eb-9019-0f0f6bda2a36")
 	)
 	(gr_rect
 		(start 88 43.5)

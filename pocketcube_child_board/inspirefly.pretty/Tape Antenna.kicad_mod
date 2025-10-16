@@ -67,7 +67,7 @@
 		(uuid "4437ce80-66bd-4dd9-be03-d6df4fa0cfdd")
 	)
 	(embedded_fonts no)
-	(model "/Users/alexdiarra/Downloads/RF_Copper_Antenna_Model.STEP"
+	(model "${KIPRJMOD}/3D Files/RF_Copper_Antenna_Model.STEP"
 		(offset
 			(xyz 0 84.5 2)
 		)
