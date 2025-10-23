@@ -8,6 +8,7 @@ Tasks:
 - We need to find a connector with more connection so we can a 4.2V path for the burn wire/resistor
 - The Antenna will sit on the PCB and the deployment method will also be on the PCB, however we need to figure out a way to connect it, so far we want a pad that the antenna will connect to via SMD. We want the PCB to have zero copper under where it's mounted in order to reduce capacitance. For our ground plane we'll be using the chassis since it'll be our largest grounding point. 
 - Integrate the burn wire, it'll operate at 4.2V at about 6A
+- Look into using digital input/output to control nmos from RFM chip
 
 
 Completed Tasks:
