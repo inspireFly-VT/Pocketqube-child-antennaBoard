@@ -1,16 +1,13 @@
 Tasks:
 - We need to determine the length of the traces we're going to use going from the transceiver to the tape antenna, we'll use https://jlcpcb.com/pcb-impedance-calculator, we need an impedance of 50 ohms to match the transceiver and the antenna we're going to design.
-- Look into VIA stitching across the trace going from the antenna to the transceiver, allegedly helps to maintain the integrity of the signal.
 - May need to talk to mechanical in terms of deployment of our antenna
 - Same 5x5 design, decide where the mounting holes are, mechanical has not given us direction on it yet. Also make it slightly smaller than 5x5, so that there's a small amount of tolerance for mechanical.
-- Integrate burn wire. Put burn wire on the payload, backplane board, or on our own board. The backplane board is an entire face and so is the antenna board, so just be sure to integrate this way.
-- We need to find a way to connect the copper antenna to the PCB, look into matching network and a low-pass filter to connect to the copper antenna
-- We need to find a connector with more connection so we can a 4.2V path for the burn wire/resistor
 - The Antenna will sit on the PCB and the deployment method will also be on the PCB, however we need to figure out a way to connect it, so far we want a pad that the antenna will connect to via SMD. We want the PCB to have zero copper under where it's mounted in order to reduce capacitance. For our ground plane we'll be using the chassis since it'll be our largest grounding point. 
-- Integrate the burn wire, it'll operate at 4.2V at about 6A
+- Integrate the burn wire on antenna board, it'll operate at 4.2V at about 6A
 - Look into using digital input/output to control nmos from RFM chip
 - Figure out deployment method (wrap around or spool)
-- "Trace crosstalk with vias". Goes hand-in-hand with via stiching. In terms of getting rid of any energy on the traces going from the transceiver to the antenna itself. KiCad has some stuff we can use to automate and implement this. Mounting of antenna will likely cause some kind of reactance added to the transmission line.
+- "Trace crosstalk with vias". Goes hand-in-hand with via stiching. In terms of getting rid of any energy on the traces going from the transceiver to the antenna itself. KiCad has some stuff we can use to automate and implement this. Mounting of antenna will likely cause some kind of reactance added to the transmission line. VIA stiching gives us a hard ground plane which, helps to maintain the integrity of the signal.
+
 
 
 Completed Tasks:
@@ -20,5 +17,7 @@ Completed Tasks:
 - We need a 4-5 pin connector and implement an interrupt. The connector will go between the main board and the antenna board. Look into specific non-coaxial connectors that will maintain our use case for RF applications - DONE
 - We're back to a monopole antenna, for this we only need our transceiver to have one output, because of this, we can continue to use the RFM98W-433S2 transceiver. - DONE
 - Alek said the main requirements for our transceiver is for it to have Frequency Shift Keying (FSK) and a high dbi output. We can maybe look into a better transceiver if we want to. - DONE
+- We need to find a connector with more connection so we can a 4.2V path for the burn wire/resistor - DONE
+
 
 
