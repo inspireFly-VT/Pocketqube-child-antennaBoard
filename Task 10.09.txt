@@ -9,10 +9,12 @@ Tasks:
 - The Antenna will sit on the PCB and the deployment method will also be on the PCB, however we need to figure out a way to connect it, so far we want a pad that the antenna will connect to via SMD. We want the PCB to have zero copper under where it's mounted in order to reduce capacitance. For our ground plane we'll be using the chassis since it'll be our largest grounding point. 
 - Integrate the burn wire, it'll operate at 4.2V at about 6A
 - Look into using digital input/output to control nmos from RFM chip
+-Figure out deployment method (wrap around or spool)
 
 
 Completed Tasks:
 - Ask Shane to make a separate Antenna Board repo - DONE
+
 - We need to determine the length of the tape antenna we're going to use, for this we need to do research into the tape antenna and how it functions - DONE
 - We need a 4-5 pin connector and implement an interrupt. The connector will go between the main board and the antenna board. Look into specific non-coaxial connectors that will maintain our use case for RF applications - DONE
 - We're back to a monopole antenna, for this we only need our transceiver to have one output, because of this, we can continue to use the RFM98W-433S2 transceiver. - DONE
