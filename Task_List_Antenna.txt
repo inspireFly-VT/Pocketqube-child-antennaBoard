@@ -12,12 +12,12 @@ Tasks:
 
 Completed Tasks:
 - Ask Shane to make a separate Antenna Board repo - DONE
-
 - We need to determine the length of the tape antenna we're going to use, for this we need to do research into the tape antenna and how it functions - DONE
 - We need a 4-5 pin connector and implement an interrupt. The connector will go between the main board and the antenna board. Look into specific non-coaxial connectors that will maintain our use case for RF applications - DONE
 - We're back to a monopole antenna, for this we only need our transceiver to have one output, because of this, we can continue to use the RFM98W-433S2 transceiver. - DONE
 - Alek said the main requirements for our transceiver is for it to have Frequency Shift Keying (FSK) and a high dbi output. We can maybe look into a better transceiver if we want to. - DONE
 - We need to find a connector with more connection so we can a 4.2V path for the burn wire/resistor - DONE
+
 
 
 
