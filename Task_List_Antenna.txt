@@ -9,7 +9,8 @@ Tasks:
 - The Antenna will sit on the PCB and the deployment method will also be on the PCB, however we need to figure out a way to connect it, so far we want a pad that the antenna will connect to via SMD. We want the PCB to have zero copper under where it's mounted in order to reduce capacitance. For our ground plane we'll be using the chassis since it'll be our largest grounding point. 
 - Integrate the burn wire, it'll operate at 4.2V at about 6A
 - Look into using digital input/output to control nmos from RFM chip
--Figure out deployment method (wrap around or spool)
+- Figure out deployment method (wrap around or spool)
+- "Trace crosstalk with vias". Goes hand in hand with via stiching. In terms of getting rid of any energy on the traces going from the transceiver to the antenna itself. KiCad has some stuff we can use to automate and implement this. Mounting of antenna will likely cause some kind of reactance added to the transmission line.
 
 
 Completed Tasks:
@@ -19,3 +20,4 @@ Completed Tasks:
 - We need a 4-5 pin connector and implement an interrupt. The connector will go between the main board and the antenna board. Look into specific non-coaxial connectors that will maintain our use case for RF applications - DONE
 - We're back to a monopole antenna, for this we only need our transceiver to have one output, because of this, we can continue to use the RFM98W-433S2 transceiver. - DONE
 - Alek said the main requirements for our transceiver is for it to have Frequency Shift Keying (FSK) and a high dbi output. We can maybe look into a better transceiver if we want to. - DONE
+
