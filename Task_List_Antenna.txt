@@ -7,6 +7,7 @@ Tasks:
 - Look into using digital input/output to control NMOS from RFM chip. Ensure that the NMOS can handle sufficient voltage and current
 - Figure out a deployment method (wrap around or spool)
 - "Trace crosstalk with vias". Goes hand-in-hand with via stiching. In terms of getting rid of any energy on the traces going from the transceiver to the antenna itself. KiCad has some stuff we can use to automate and implement this. Mounting of antenna will likely cause some kind of reactance added to the transmission line. VIA stiching gives us a hard ground plane which, helps to maintain the integrity of the signal.
+- Look into making the PCB 4 layers instead of two in order to better implement VIA stitching.
 
 
 
