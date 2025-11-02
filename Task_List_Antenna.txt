@@ -19,9 +19,5 @@ Completed Tasks:
 - We need to find a connector with more connection so we can a 4.2V path for the burn wire/resistor - DONE
 
 
-this is a test
-
-
-
 
 
