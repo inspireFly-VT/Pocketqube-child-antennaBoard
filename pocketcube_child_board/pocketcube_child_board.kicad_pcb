@@ -64,7 +64,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -109,7 +108,7 @@
 	(footprint "inspirefly:RFM98W-433S2"
 		(layer "F.Cu")
 		(uuid "1347cbf9-5afc-44db-b44a-8628cff20c54")
-		(at 106 68.5)
+		(at 104 52.5)
 		(property "Reference" "MOD1"
 			(at -4.825 -9.075 0)
 			(layer "F.SilkS")
@@ -772,7 +771,7 @@
 	(footprint "inspirefly:HARWIN_M55-7102042R"
 		(layer "F.Cu")
 		(uuid "df982b95-d76c-45da-9cc2-af2ae07a7c13")
-		(at 126.635 87)
+		(at 104.5 70)
 		(property "Reference" "J1"
 			(at -6.115 -6.425 0)
 			(layer "F.SilkS")
