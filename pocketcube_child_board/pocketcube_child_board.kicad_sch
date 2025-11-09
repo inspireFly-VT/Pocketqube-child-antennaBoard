@@ -2388,12 +2388,6 @@
 		(uuid "0099ec7e-e87b-4f00-a983-f9142da6359d")
 	)
 	(junction
-		(at 25.4 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07def718-5c98-445c-8d13-9b65532e0e64")
-	)
-	(junction
 		(at 157.48 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2430,10 +2424,20 @@
 		(uuid "9de05ff5-2f7b-4883-ad85-0b6ead976be0")
 	)
 	(junction
+		(at 25.4 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b81664a6-527f-43bc-a5ec-fc5de00d4ac0")
+	)
+	(junction
 		(at 166.37 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d246ddd0-c5f2-4aae-ae18-d725a8fe14f5")
+	)
+	(no_connect
+		(at 156.21 49.53)
+		(uuid "1a6542ef-2457-412d-b6b8-f3728ee42b5e")
 	)
 	(no_connect
 		(at 156.21 69.85)
@@ -2464,8 +2468,8 @@
 		(uuid "791f56da-b570-4845-b764-54967c8f5763")
 	)
 	(no_connect
-		(at 156.21 72.39)
-		(uuid "7fe4eb0b-585d-49f5-bb2a-defe162c5c40")
+		(at 156.21 46.99)
+		(uuid "973015dd-55f3-45b7-a0c3-07db9d6ffc75")
 	)
 	(no_connect
 		(at 156.21 62.23)
@@ -2484,10 +2488,6 @@
 		(uuid "bf263ebf-78a2-4944-8ffe-11364c54666a")
 	)
 	(no_connect
-		(at 156.21 74.93)
-		(uuid "c08a769b-4681-465c-9ed3-00132e7b7896")
-	)
-	(no_connect
 		(at 52.07 33.02)
 		(uuid "c25f4353-39a9-4aae-ba9c-a21733b535aa")
 	)
@@ -2500,16 +2500,6 @@
 			(type default)
 		)
 		(uuid "074c45ce-0973-404c-8760-a06822e39ebf")
-	)
-	(wire
-		(pts
-			(xy 25.4 91.44) (xy 29.21 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd13bb4-f167-4437-a04d-50dac84d3e7d")
 	)
 	(wire
 		(pts
@@ -2773,6 +2763,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 91.44) (xy 29.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e187a171-9d25-4ab1-9cd9-d7a0a727d2f0")
+	)
+	(wire
+		(pts
 			(xy 157.48 31.75) (xy 157.48 33.02)
 		)
 		(stroke
@@ -2781,27 +2781,25 @@
 		)
 		(uuid "e6282014-9ffc-487b-aedb-3105cd690a74")
 	)
-	(global_label "PMOS_GATE"
-		(shape input)
-		(at 156.21 49.53 0)
-		(fields_autoplaced yes)
+	(label "ANTENNA_TRACE"
+		(at 171.45 39.37 0)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f839255-88ad-49de-beb2-e902ff0ed4ce")
+	)
+	(label "ANTENNA_TRACE"
+		(at 193.04 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "03b25f34-3d60-4e10-b977-0b499ccf2002")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.8994 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "abc955e3-f11a-4441-ac20-467a40a98478")
 	)
 	(global_label "MISO"
 		(shape input)
@@ -3045,6 +3043,50 @@
 			)
 		)
 	)
+	(global_label "PMOS_GATE"
+		(shape input)
+		(at 156.21 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ccdb3f5-1589-4ebe-8a43-b25c52bf4634")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.8994 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMOS_GATE"
+		(shape input)
+		(at 156.21 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6eeea64d-2e25-444f-bc28-681a777640a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.8994 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RFM_RESET"
 		(shape input)
 		(at 26.67 40.64 180)
@@ -3129,6 +3171,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMOS_GATE"
+		(shape input)
+		(at 25.4 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95c849dd-ade2-424f-b23f-a416216a43c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4 107.6694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3221,28 +3285,6 @@
 			)
 		)
 	)
-	(global_label "PMOS_GATE"
-		(shape input)
-		(at 156.21 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bdb26449-d64b-4b99-a2fe-0df5bfe29d17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.8994 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI"
 		(shape input)
 		(at 52.07 48.26 0)
@@ -3261,28 +3303,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIO0"
-		(shape input)
-		(at 25.4 93.98 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d2e187ad-3b86-4f2f-9ded-5c8c779b13a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 101.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3451,7 +3471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c2821ea-86bc-4ab3-855b-e54323783c7f")
-		(property "Reference" "R_BURN"
+		(property "Reference" "R_BURN1"
 			(at 36.83 101.5999 0)
 			(effects
 				(font
@@ -3505,7 +3525,7 @@
 		(instances
 			(project ""
 				(path "/a6e7c6fa-7853-41f6-bfd3-5d5ee6914f30"
-					(reference "R_BURN")
+					(reference "R_BURN1")
 					(unit 1)
 				)
 			)
@@ -3939,7 +3959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0df84b6-815e-436f-8a10-04a7d9cf9c35")
-		(property "Reference" "R_PULLUP"
+		(property "Reference" "R_PULLUP1"
 			(at 21.844 86.36 0)
 			(effects
 				(font
@@ -3993,7 +4013,7 @@
 		(instances
 			(project ""
 				(path "/a6e7c6fa-7853-41f6-bfd3-5d5ee6914f30"
-					(reference "R_PULLUP")
+					(reference "R_PULLUP1")
 					(unit 1)
 				)
 			)
