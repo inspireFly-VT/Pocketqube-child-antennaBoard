@@ -2781,7 +2781,11 @@
 		)
 		(uuid "e6282014-9ffc-487b-aedb-3105cd690a74")
 	)
+<<<<<<< Updated upstream
 	(global_label "PMOS_GATE"
+=======
+	(global_label "MOSI"
+>>>>>>> Stashed changes
 		(shape input)
 		(at 156.21 49.53 0)
 		(fields_autoplaced yes)
@@ -2793,7 +2797,11 @@
 		)
 		(uuid "03b25f34-3d60-4e10-b977-0b499ccf2002")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 169.8994 49.53 0)
+=======
+			(at 16.5486 45.72 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2833,11 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(global_label "MOSI"
+=======
+	(global_label "CLK"
+>>>>>>> Stashed changes
 		(shape input)
 		(at 26.67 48.26 180)
 		(fields_autoplaced yes)
@@ -2837,7 +2849,11 @@
 		)
 		(uuid "113d5573-b4d4-4c9e-af37-cb617944154a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 19.0886 48.26 0)
+=======
+			(at 56.0833 48.26 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +2897,11 @@
 		)
 		(uuid "2c12469d-9094-409c-87ba-59757b12f30b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 21.2053 43.18 0)
+=======
+			(at 18.6653 50.8 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2911,11 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(global_label "4.2V"
+=======
+	(global_label "MISO"
+>>>>>>> Stashed changes
 		(shape input)
 		(at 52.07 35.56 0)
 		(fields_autoplaced yes)
@@ -2903,7 +2927,11 @@
 		)
 		(uuid "3f6c4b02-ac64-479f-ae4a-449c30424852")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 59.1676 35.56 0)
+=======
+			(at 16.5486 43.18 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +2963,11 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(global_label "GND"
+=======
+	(global_label "MISO"
+>>>>>>> Stashed changes
 		(shape input)
 		(at 52.07 38.1 0)
 		(fields_autoplaced yes)
@@ -2947,7 +2979,11 @@
 		)
 		(uuid "4bb4d9b1-f1ec-471f-8cf9-b05af78037eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 58.9257 38.1 0)
+=======
+			(at 57.1114 43.18 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,6 +3125,31 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
+=======
+	(global_label "CLK"
+		(shape input)
+		(at 24.13 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d417106-2cdb-4668-b802-e422725413f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5767 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+>>>>>>> Stashed changes
 	(global_label "CS"
 		(shape input)
 		(at 125.73 52.07 180)
@@ -3221,7 +3282,11 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(global_label "PMOS_GATE"
+=======
+	(global_label "CS"
+>>>>>>> Stashed changes
 		(shape input)
 		(at 156.21 46.99 0)
 		(fields_autoplaced yes)
@@ -3233,7 +3298,11 @@
 		)
 		(uuid "bdb26449-d64b-4b99-a2fe-0df5bfe29d17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 169.8994 46.99 0)
+=======
+			(at 54.9947 50.8 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +3378,11 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(global_label "CLK"
+=======
+	(global_label "MOSI"
+>>>>>>> Stashed changes
 		(shape input)
 		(at 52.07 45.72 0)
 		(fields_autoplaced yes)
@@ -3321,7 +3394,11 @@
 		)
 		(uuid "ed981720-ed12-4ca0-91bc-49e10bfc7141")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 58.6233 45.72 0)
+=======
+			(at 57.1114 45.72 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
