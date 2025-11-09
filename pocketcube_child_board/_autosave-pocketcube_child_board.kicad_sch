@@ -3451,7 +3451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c2821ea-86bc-4ab3-855b-e54323783c7f")
-		(property "Reference" "R_BURN"
+		(property "Reference" "R_BURN1"
 			(at 36.83 101.5999 0)
 			(effects
 				(font
@@ -3469,7 +3469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 32.512 102.87 90)
 			(effects
 				(font
@@ -3505,7 +3505,7 @@
 		(instances
 			(project ""
 				(path "/a6e7c6fa-7853-41f6-bfd3-5d5ee6914f30"
-					(reference "R_BURN")
+					(reference "R_BURN1")
 					(unit 1)
 				)
 			)
@@ -3939,7 +3939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0df84b6-815e-436f-8a10-04a7d9cf9c35")
-		(property "Reference" "R_PULLUP"
+		(property "Reference" "R_PULLUP1"
 			(at 21.844 86.36 0)
 			(effects
 				(font
@@ -3957,7 +3957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 23.622 87.63 90)
 			(effects
 				(font
@@ -3993,7 +3993,7 @@
 		(instances
 			(project ""
 				(path "/a6e7c6fa-7853-41f6-bfd3-5d5ee6914f30"
-					(reference "R_PULLUP")
+					(reference "R_PULLUP1")
 					(unit 1)
 				)
 			)
