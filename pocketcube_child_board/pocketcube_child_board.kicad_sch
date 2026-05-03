@@ -6706,7 +6706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 147.32 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6717,7 +6717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 144.4752 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7818,7 +7818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 209.55 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,7 +7829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 206.7052 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11732,7 +11732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 273.05 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11743,7 +11743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 270.2052 147.32 0)
 			(hide yes)
 			(show_name no)
